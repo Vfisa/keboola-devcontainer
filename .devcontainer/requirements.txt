@@ -1,0 +1,9 @@
+dbt-snowflake
+elementary-data[snowflake]
+jsonschema
+sqlalchemy
+requests
+python-dateutil
+pyyaml
+snowflake-connector-python
+sqlparse
