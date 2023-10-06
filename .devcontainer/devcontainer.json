@@ -54,32 +54,15 @@
 //	"build": {
 //		"dockerfile": "Dockerfile"
 //	},
-//	"customizations": {
-//		"vscode": {
-//			"extensions": [
-//				"innoverio.vscode-dbt-power-user",
-//				"ms-python.python",
-//				"gerane.Theme-Monokai-Cobalt"
-//			]
-//		}
-//	}
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
-
-	"extensions": [
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"sqltools.useNodeRuntime": true,
+				"sql-formatter.uppercase": true,
+				"telemetry.enableTelemetry": false
+			},
+			"extensions": 
+			[
 		
 		// MAIN EXTENSIONS
 		"ms-python.python",
@@ -106,8 +89,25 @@
 
 		// GEEKY STUFF
 		"randomfractalsinc.duckdb-sql-tools",
-		"rangav.vscode-thunder-client" // THIS IS FOR API REQUESTS
-		// "evidence.evidence-vscode" ?? COOL STUFF NOT NEEDED
+		"rangav.vscode-thunder-client", // THIS IS FOR API REQUESTS
+		"evidence.evidence-vscode" // ?? COOL STUFF NOT NEEDED
 
 	]
+		}
+	}
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
