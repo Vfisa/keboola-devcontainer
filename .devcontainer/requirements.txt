@@ -1,9 +1,39 @@
+beautifulsoup4
+boto3
+botocore
 dbt-snowflake
+dbt-bigquery
 elementary-data[snowflake]
+elementary-data[bigquery]
+flake8
+great_expectations
+Jinja2
 jsonschema
-sqlalchemy
-requests
+jupyterlab
+jupyterlab-git
+jupyterlab-pygments
+jupyterlab_server
+kbc-transformation @ git+https://github.com/keboola/python-transformation.git@3678de500f2865d0e84f42c3ec8ce079186f5361
+kbcstorage @ git+https://github.com/keboola/sapi-python-client.git@5a93926c2191ccd6b7402c9e24d9912884d87d4c
+Keboola @ git+https://github.com/keboola/python-docker-application.git@764b79d8779f6fd65e9eecef617a7c51cd05eb85
+keboola-sandboxes-notebook-utils @ git+https://github.com/keboola/sandboxes-notebook-utils.git@5db111f2dc9b3a272ca2f4846fb4f6d410107b8e
+keboola.component
+matplotlib
+matplotlib-inline
+mlflow
+nbconvert
+networkx
+numpy
+pandas
+plotly
+pygelf
 python-dateutil
 pyyaml
+requests
+requests-oauthlib
+sqlalchemy
+sqlalchemy-bigquery
 snowflake-connector-python
 sqlparse
+streamlit
+xgboost
